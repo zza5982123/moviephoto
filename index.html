@@ -1,29 +1,71 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-<head>
-	<title>Page Title</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.mobile-1.4.5.min.js"></script>
-</head>
+  <head>
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  </head>
 
-<body>
-	<div data-role="page">
+  <body>
+    <div data-role="page">
+      <div data-role="header">
+        <h1>Page Title</h1>
+      </div>
+      <!-- /header -->
 
-        <div data-role="header">
-            <h1>Page Title</h1>
-        </div><!-- /header -->
-    
-        <div role="main" class="ui-content">
-            <p>Page content goes here.</p>
-            <img src="./images/images.jpg" alt="" width="100%">
-        </div><!-- /content -->
-    
-        <div data-role="footer">
-            <h4>©2020 ALL right revised.</h4>
-        </div><!-- /footer -->
-    </div><!-- /page -->
-    
-</body>
+      <div role="main" class="ui-content">
+        <p>Page content goes here.</p>
+        <div class="ui-grid-b" style="height: 100%; text-align: center">
+          <div class="ui-block-a">
+            <div>
+              <img src="./images/hamburger.png" />
+              <p>hamburger</p>
+            </div>
+          </div>
+          <div class="ui-block-b">
+            <div>
+              <img src="./images/coffee.png" />
+              <p>coffee</p>
+            </div>
+          </div>
+          <div class="ui-block-c">
+            <div>
+              <img src="./images/toast.png" />
+              <p>toast</p>
+            </div>
+          </div>
+        </div>
+        <div class="ui-grid-b" style="height: 100%; text-align: center">
+          <div class="ui-block-a">
+            <div>
+              <img src="./images/canned_food.png" />
+              <p>canned_food</p>
+            </div>
+          </div>
+          <div class="ui-block-b">
+            <div>
+              <img src="./images/bread.png" />
+              <p>bread</p>
+            </div>
+          </div>
+          <div class="ui-block-c">
+            <div>
+              <img src="./images/cake2.png" />
+              <p>cake2</p>
+            </div>
+          </div>
+        </div>
+        <!-- /grid-a -->
+      </div>
+      <!-- /content -->
+
+      <div data-role="footer">
+        <h4>©2020 ALL right revised.</h4>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+  </body>
 </html>
